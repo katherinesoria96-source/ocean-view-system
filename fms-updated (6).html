@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FMS - Fisheries &amp; Marine Science</title>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <link rel="icon" type="image/png" href="logo.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Josefin+Sans:wght@300;400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="baseS.css.css">
+</head>
+<body>
+
+<!-- BUBBLES -->
+<div class="bubbles" id="bubbles"></div>
+
+<!-- ===== NAV ===== -->
+<nav id="mainNav">
+  <div class="container">
+    <a href="#" class="logo">
+      <div class="logo-icon"><img src="logo.png" alt="FMS Logo"></div>
+      Fisheries &amp; <span>Marine Science</span>
+    </a>
+    <div class="menu-toggle" id="menuToggle">
+      <span></span><span></span><span></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#all-fishes">Species</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="hero">
+  <div class="rays">
+    <div class="ray" style="left:20%;width:1px;animation-duration:7s;animation-delay:0s;"></div>
+    <div class="ray" style="left:35%;width:2px;animation-duration:9s;animation-delay:1.5s;"></div>
+    <div class="ray" style="left:50%;width:1px;animation-duration:6s;animation-delay:0.5s;"></div>
+    <div class="ray" style="left:65%;width:2px;animation-duration:11s;animation-delay:2s;"></div>
+    <div class="ray" style="left:80%;width:1px;animation-duration:8s;animation-delay:1s;"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Philippine Ocean Research</div>
+    <h1>Ocean <em>View</em><br>System</h1>
+    <p class="hero-sub">Researcher &nbsp;·&nbsp; Conservationist &nbsp;·&nbsp; Ocean Advocate</p>
+    <p class="tagline">
+      Exploring marine life, fish species diversity, ocean ecosystems,
+      and the science behind protecting our seas for future generations.
+    </p>
+    <a href="#all-fishes" class="hero-cta">
+      <span>Explore Species</span>
+      <span>↓</span>
+    </a>
+  </div>
+  <div class="hero-scroll">
+    <span></span>
+    Scroll
+  </div>
+  <div class="hero-waves">
+    <svg viewBox="0 0 1440 160" xmlns="http://www.w3.org/2000/svg" class="wave1" preserveAspectRatio="none">
+      <path d="M0,64 C180,120 360,0 540,64 C720,128 900,10 1080,64 C1260,118 1380,30 1440,64 L1440,160 L0,160 Z" fill="rgba(10,61,107,0.4)"/>
+      <path d="M1440,64 C1260,120 1080,0 900,64 C720,128 540,10 360,64 C180,118 60,30 0,64 L0,160 L1440,160 Z" fill="rgba(10,61,107,0.4)"/>
+    </svg>
+    <svg viewBox="0 0 1440 160" xmlns="http://www.w3.org/2000/svg" class="wave2" preserveAspectRatio="none">
+      <path d="M0,80 C240,140 480,20 720,80 C960,140 1200,20 1440,80 L1440,160 L0,160 Z" fill="rgba(6,36,68,0.6)"/>
+      <path d="M1440,80 C1200,140 960,20 720,80 C480,140 240,20 0,80 L0,160 L1440,160 Z" fill="rgba(6,36,68,0.6)"/>
+    </svg>
+    <svg viewBox="0 0 1440 160" xmlns="http://www.w3.org/2000/svg" class="wave3" preserveAspectRatio="none">
+      <path d="M0,100 C360,40 720,160 1080,100 C1260,70 1380,120 1440,100 L1440,160 L0,160 Z" fill="rgba(4,15,31,0.9)"/>
+      <path d="M1440,100 C1080,40 720,160 360,100 C180,70 60,120 0,100 L0,160 L1440,160 Z" fill="rgba(4,15,31,0.9)"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ===== SPECIES ===== -->
+<section id="all-fishes">
+  <div class="container">
+    <p class="section-tag">Marine Biodiversity</p>
+    <h2 class="section-title">Species &amp; <em>All Fishes</em></h2>
+    <div class="section-rule"></div>
+    <p class="fish-intro">Rare and notable fish species discovered across the Philippine archipelago and deep ocean waters.</p>
+
+    <div class="fish-group fade-up">
+      <div class="group-header">
+        <h3>Philippine Notable Species</h3>
+        <div class="group-line"></div>
+      </div>
+      <div class="fish-grid">
+        <div class="fish-card">
+          <div class="fish-card-img" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/26/School_of_sardines_at_the_Monterey_Bay_Aquarium_%2812056%29.jpg');"></div>
+          <div class="fish-card-body">
+            <div class="fish-card-num">01 — SPECIES</div>
+            <h4>Sardines</h4>
+            <p class="latin">Sardinella</p>
+            <p>One of the most important fish species in the Philippines. Large schools can be found in areas such as Cebu and Zamboanga, contributing greatly to the country's fisheries industry and marine biodiversity.</p>
+            <span class="fish-card-tag">Pelagic · Commercial</span>
+          </div>
+        </div>
+        <div class="fish-card">
+          <div class="fish-card-img" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c7/Whale_Shark_AdF.jpg');"></div>
+          <div class="fish-card-body">
+            <div class="fish-card-num">02 — SPECIES</div>
+            <h4>Whale Shark</h4>
+            <p class="latin">Rhincodon typus — Butanding</p>
+            <p>The largest fish species in the world, found in Donsol, Sorsogon and Oslob, Cebu. A keystone species in marine tourism and ocean conservation in the Philippines.</p>
+            <span class="fish-card-tag">Vulnerable · Protected</span>
+          </div>
+        </div>
+        <div class="fish-card">
+          <div class="fish-card-img" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/ad/Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg');"></div>
+          <div class="fish-card-body">
+            <div class="fish-card-num">03 — SPECIES</div>
+            <h4>Clownfish</h4>
+            <p class="latin">Amphiprioninae</p>
+            <p>Commonly found in Philippine coral reefs. Lives symbiotically among sea anemones and serves as an important bioindicator of healthy reef ecosystems.</p>
+            <span class="fish-card-tag">Reef Dweller · Symbiotic</span>
+          </div>
+        </div>
+        <div class="fish-card">
+          <div class="fish-card-img" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/de/Finepatterned_Pufferfish_%28Takifugu_poecilonotus%29_-_GRB.jpg');"></div>
+          <div class="fish-card-body">
+            <div class="fish-card-num">04 — SPECIES</div>
+            <h4>Pufferfish</h4>
+            <p class="latin">Tetraodontidae</p>
+            <p>Found in coastal waters throughout the Philippines. Some species contain powerful tetrodotoxins for defense against predators, making them among the most unique marine fishes in tropical oceans.</p>
+            <span class="fish-card-tag">Coastal · Toxic Defense</span>
+          </div>
+        </div>
+        <div class="fish-card">
+          <div class="fish-card-img" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/18/Thresher_shark.jpg');"></div>
+          <div class="fish-card-body">
+            <div class="fish-card-num">05 — SPECIES</div>
+            <h4>Thresher Shark</h4>
+            <p class="latin">Alopias</p>
+            <p>Famous for its extraordinarily long tail used for stunning prey. Malapascua Island in Cebu is one of the few places globally where divers can reliably observe this elusive species.</p>
+            <span class="fish-card-tag">Pelagic · Rare Sighting</span>
+          </div>
+        </div>
+        <div class="fish-card">
+          <div class="fish-card-img" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/49/Humphead_wrasse_melb_aquarium.jpg');"></div>
+          <div class="fish-card-body">
+            <div class="fish-card-num">06 — SPECIES</div>
+            <h4>Napoleon Wrasse</h4>
+            <p class="latin">Cheilinus undulatus</p>
+            <p>One of the largest coral reef fishes in Philippine waters. Considered vulnerable due to overfishing and habitat loss, it plays a critical role in reef ecosystem balance.</p>
+            <span class="fish-card-tag">Vulnerable · CITES Listed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fish-group fade-up">
+      <div class="group-header">
+        <h3>Rare &amp; Deep-Sea Species</h3>
+        <div class="group-line"></div>
+      </div>
+      <div class="fish-grid">
+        <div class="fish-card">
+          <div class="fish-card-img" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/14/Megamouth_shark_Megachasma_pelagios.jpg');"></div>
+          <div class="fish-card-body">
+            <div class="fish-card-num">07 — SPECIES</div>
+            <h4>Megamouth Shark</h4>
+            <p class="latin">Megachasma pelagios</p>
+            <p>One of the rarest shark species in the world. A deep-sea filter feeder discovered only in 1976, using its enormous mouth to sieve plankton from oceanic depths.</p>
+            <span class="fish-card-tag">Deep Sea · Extremely Rare</span>
+          </div>
+        </div>
+        <div class="fish-card">
+          <div class="fish-card-img" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/ff/Latimeria_menadoensis.jpg');"></div>
+          <div class="fish-card-body">
+            <div class="fish-card-num">08 — SPECIES</div>
+            <h4>Coelacanth</h4>
+            <p class="latin">Latimeria</p>
+            <p>The "living fossil" — once believed extinct for millions of years. This rare deep-sea fish provides crucial evolutionary insights into the origins of marine vertebrates.</p>
+            <span class="fish-card-tag">Living Fossil · Critically Rare</span>
+          </div>
+        </div>
+        <div class="fish-card">
+          <div class="fish-card-img" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0e/Male_Mandarin_Dragonet_%28Pterosynchiropus_splendidus%29.jpg');"></div>
+          <div class="fish-card-body">
+            <div class="fish-card-num">09 — SPECIES</div>
+            <h4>Mandarin Fish</h4>
+            <p class="latin">Synchiropus splendidus</p>
+            <p>Renowned for its breathtaking blue, orange, and green patterns. Considered one of the most visually spectacular reef fish and commonly found in Pacific coral reef ecosystems.</p>
+            <span class="fish-card-tag">Reef · Bioluminescent Patterns</span>
+          </div>
+        </div>
+        <div class="fish-card">
+          <div class="fish-card-img" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7b/Leafy_seadragon.jpg');"></div>
+          <div class="fish-card-body">
+            <div class="fish-card-num">10 — SPECIES</div>
+            <h4>Leafy Seadragon</h4>
+            <p class="latin">Phycodurus eques</p>
+            <p>A rare marine fish closely related to seahorses. Its elaborate leaf-like appendages provide exceptional camouflage among seaweed, rendering it nearly invisible to predators.</p>
+            <span class="fish-card-tag">Masters of Camouflage</span>
+          </div>
+        </div>
+        <div class="fish-card">
+          <div class="fish-card-img" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b5/Barreleye-fish_GoK.jpg');"></div>
+          <div class="fish-card-body">
+            <div class="fish-card-num">11 — SPECIES</div>
+            <h4>Barreleye Fish</h4>
+            <p class="latin">Macropinna microstoma</p>
+            <p>Recognized by its transparent head and upward-facing tubular eyes, allowing vision in the darkness of the deep ocean. Among the most otherworldly fish ever discovered.</p>
+            <span class="fish-card-tag">Deep Sea · Transparent Head</span>
+          </div>
+        </div>
+        <div class="fish-card">
+          <div class="fish-card-img" style="background-image: url('https://www.fws.gov/sites/default/files/banner_images/2022-12/goblin%2Bshark.jpg');"></div>
+          <div class="fish-card-body">
+            <div class="fish-card-num">12 — SPECIES</div>
+            <h4>Goblin Shark</h4>
+            <p class="latin">Mitsukurina owstoni</p>
+            <p>Recognizable by its elongated snout and extendable, slingshot-like jaws. A true "living fossil" of the deep sea with lineage tracing back over 125 million years.</p>
+            <span class="fish-card-tag">Ancient Lineage · Deep Sea</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== STATS — inilipat dito mula sa about section ===== -->
+<div class="about-stats fade-up" style="margin-top: 50px; display: flex; justify-content: center;">
+  <div class="stat" style="border: none;">
+    <div class="stat-num">
+      <a href="https://www.fishi-pedia.com/fishes/native_regions/mer-des-philippines?fbclid=IwY2xjawSCKUdleHRuA2FlbQIxMABicmlkETFuZ2pFQ0xOVXUweHo0OEJIc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHpcvwIihCHpbOLQuYhUWidownOeyvklqakDoCJkTO2quJLb8AixC_XsJWoBy_aem_-XkKSZQDQFl_pWx6UTZDTw&pg=2" target="_blank" style="color: inherit; text-decoration: none;">400+</a>
+    </div>
+    <div class="stat-label">Species Documented</div>
+  </div>
+</div>
+</section>
+
+<!-- ===== ABOUT — Section 1: Philippine Marine Science ===== -->
+<section id="about">
+  <div class="container">
+    <p class="section-tag">Introduction</p>
+    <h2 class="section-title">Philippine <em>Marine Science</em></h2>
+    <div class="section-rule"></div>
+    <div class="about-inner fade-up">
+      <div class="about-visual">
+        <div class="about-img-frame">
+          <img src="PMS.jpg" alt="Philippine Marine Science">
+          <div class="about-corner tl"></div>
+          <div class="about-corner tr"></div>
+          <div class="about-corner bl"></div>
+          <div class="about-corner br"></div>
+        </div>
+        <div class="about-badge">
+          <span class="badge-num">🌊</span>
+          <span class="badge-label">Ocean Research</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <h3>Introduction to <em>Philippine Marine Science</em></h3>
+        <p class="lead">Welcome to Philippine Marine Science</p>
+        <p>The philippines is an archipelagic country composed of more than 7,000 islands and surrounded by rich marine ecosystems. Because of its location within the Coral Triangle, the country is recognized as one of the world's centers of marine biodiversity. Philippine waters are home to thousands of marine species, including colorful coral reefs, mangroves, seagrasses, fishes, sea turtles, and marine mammals. Marine science helps people understand the importance of oceans and coastal resources in supporting food, livelihoods, tourism, transportation, and environmental balance. It also focuses on studying marine ecosystems, protecting endangered species, promoting sustainable fishing practices, and addressing environmental problems such as pollution, climate change, coral bleaching, and overfishing. This website aims to introduce users to the importance of Fisheries Science and Marine Science in the Philippines. It provides information about marine biodiversity, conservation efforts, sustainable resource management, and the role of communities in protecting the country's oceans for future generations.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT — Section 2: Fisheries in the Philippines ===== -->
+<section id="about">
+  <div class="container">
+    <div class="about-inner fade-up">
+      <div class="about-visual">
+        <div class="about-img-frame">
+          <img src="FMS-PH.jpg" alt="Fisheries in the Philippines">
+          <div class="about-corner tl"></div>
+          <div class="about-corner tr"></div>
+          <div class="about-corner bl"></div>
+          <div class="about-corner br"></div>
+        </div>
+        <div class="about-badge">
+          <span class="badge-num">🌊</span>
+          <span class="badge-label">Ocean Research</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <h3>Fisheries in the <em>Philippines</em></h3>
+        <p class="lead">Overview of Fisheries in the Philippines</p>
+        <p>Fisheries is one of the most vital sectors in the Philippines, an archipelagic country made up of over 7,000 islands and surrounded by rich marine ecosystems. Due to its unique geographic location, the country is among the most biologically diverse marine regions in the world, and fisheries serves as a primary source of livelihood, food supply, and income for millions of Filipinos.</p>
+        <p>Philippine fisheries are divided into two major categories: Capture Fisheries — which harvests aquatic resources from natural waters and accounts for 44.1% of total production volume and 62.3% of industry value — and Aquaculture. Capture Fisheries has two types: Municipal Fisheries (operations within 15km of shore using small or non-motorized boats, regulated by local governments) and Commercial Fisheries (large-scale fishing beyond municipal waters using bigger vessels).</p>
+        <p>Over 2.29 million fisherfolk depend on the sector, with many more in related jobs. It contributes about 12% of agriculture output and 1.5% of the country's GDP. In 2023, production reached 4.26 million metric tons worth Php 328.74 billion. The Philippines ranks 11th in fish production and 4th in aquatic plants globally.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT — Section 3: Global Marine Science ===== -->
+<section id="about">
+  <div class="container">
+    <div class="about-inner fade-up">
+      <div class="about-visual">
+        <div class="about-img-frame">
+          <img src="GPMS.jpeg" alt="Global Marine Science">
+          <div class="about-corner tl"></div>
+          <div class="about-corner tr"></div>
+          <div class="about-corner bl"></div>
+          <div class="about-corner br"></div>
+        </div>
+        <div class="about-badge">
+          <span class="badge-num">🌊</span>
+          <span class="badge-label">Ocean Research</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <h3>Fisheries found in PH <em>+ Global Marine Science</em></h3>
+        <p class="lead">Background</p>
+        <p>The question of how many marine species exist is important because it provides a metric for how much we do and do not know about life in the oceans. We have compiled the first register of the marine species of the world and used this baseline to estimate how many more species, partitioned among all major eukaryotic groups, may be discovered.</p>
+        <p>There are approximately 226,000 eukaryotic marine species described. More species were described in the past decade (around 20,000) than in any previous one. We report that there are approximately 170,000 synonyms, that 58,000–72,000 species are collected but not yet described, and that 482,000–741,000 more species have yet to be sampled. Thus, there may be 0.7–1.0 million marine species total.</p>
+        <p>Between one-third and two-thirds of marine species are still likely undescribed. Earlier estimates suggesting over one million marine species may be too high. With the current rate of discovery increasing, most marine species could be identified within this century.</p>
+        <a href="https://www.scuba.com/blog/common-marine-life-philippines/?srsltid=AfmBOopg9ldkDK6r5o-sX5FRhbkPOocgEcXfHw-9GMfKOlwz4pa4KPEw" target="_blank">To learn more, open this link</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FISHERIES — Conservation Section ===== -->
+<section id="fisheries">
+  <div class="container">
+    <div class="section-rule"></div>
+    <div class="about-inner fade-up">
+      <div class="about-visual">
+        <div class="about-img-frame">
+          <img src="PROTECTION PMS.jpg" alt="Fisheries Overview">
+          <div class="about-corner tl"></div>
+          <div class="about-corner tr"></div>
+          <div class="about-corner bl"></div>
+          <div class="about-corner br"></div>
+        </div>
+        <div class="about-badge">
+          <span class="badge-num">&#127907;</span>
+          <span class="badge-label">Conservation Section</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <h3>Conservation Section: <em>Protection Of Marine Resources</em></h3>
+        <p class="lead">Sustainable Fisheries Management</p>
+        <p>Marine ecosystems like coral reefs and fish populations are threatened by overfishing, destructive fishing, and pollution, which reduce biodiversity and affect coastal communities that depend on them for food and income. In the Philippines, many fisheries are already unsustainable due to illegal and excessive fishing.</p>
+        <p>Marine Protected Areas (MPAs) help address this by restricting fishing to allow marine life to recover and restore coral reef health. When well managed, MPAs increase fish populations and biodiversity in and around protected zones.</p>
+        <p>Community-Based Management (CBM) also supports conservation by involving local communities in protecting resources and enforcing fishing rules. Programs like Fish Forever encourage this participation. However, some MPAs are poorly enforced, so stronger management and sustainable fishing practices are still needed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section id="gallery">
+  <div class="container">
+    <p class="section-tag">Visual Archive</p>
+    <h2 class="section-title"><em>Gallery</em></h2>
+    <div class="section-rule"></div>
+    <p class="gallery-intro">A visual record of fieldwork, ecosystems, and the ocean's hidden world.</p>
+
+    <div class="gallery-grid fade-up">
+
+      <!-- 01 Coral Reef Survey -->
+      <div class="gallery-item">
+        <div class="gallery-photo-wrap">
+          <img class="gallery-item-photo" src="coral-reef-survey.jpg" alt="Coral Reef Survey" height="300">
+        </div>
+        <div class="gallery-item-body">
+          <div class="gallery-item-num">01 — FIELDWORK</div>
+          <h3 class="gallery-item-title">Coral Reef Survey</h3>
+          <p class="gallery-item-desc">Coral reef surveys are essential in protecting Philippine marine ecosystems. Through continuous monitoring, researchers can assess reef conditions, guide conservation efforts, and help preserve biodiversity for future generations. Despite many reefs facing degradation, protected areas and restoration projects show that recovery is possible with proper management and conservation.</p>
+          <span class="gallery-item-tags">Reef Assessment · Biodiversity</span>
+        </div>
+      </div>
+
+      <!-- 02 Field Survey -->
+      <div class="gallery-item">
+        <div class="gallery-photo-wrap">
+          <img class="gallery-item-photo" src="fieldsurvey.jpg" alt="Field Survey" height="300">
+        </div>
+        <div class="gallery-item-body">
+          <div class="gallery-item-num">02 — FIELDWORK</div>
+          <h3 class="gallery-item-title">Field Survey</h3>
+          <p class="gallery-item-desc">Field studies in the Philippines are important for understanding real-life conditions in communities and the environment. They allow researchers and students to collect accurate information through observation, interviews, surveys, and direct experiences. In fields such as Fisheries and Marine Science, field studies help in monitoring marine biodiversity, coral reefs, mangroves, and fishing practices.</p>
+          <span class="gallery-item-tags">Data Collection · In-Situ</span>
+        </div>
+      </div>
+
+      <!-- 03 Laboratory Work -->
+      <div class="gallery-item">
+        <div class="gallery-photo-wrap">
+          <img class="gallery-item-photo" src="lab-work.jpg" alt="Laboratory Work" height="300">
+        </div>
+        <div class="gallery-item-body">
+          <div class="gallery-item-num">03 — RESEARCH</div>
+          <h3 class="gallery-item-title">Laboratory Work</h3>
+          <p class="gallery-item-desc">Lab work in Fisheries and Marine Science in the Philippines is essential for understanding aquatic ecosystems in a controlled and scientific way. It supports field studies by providing accurate data analysis and helps improve fisheries management, aquaculture production, and marine conservation efforts.</p>
+          <span class="gallery-item-tags">eDNA · Water Analysis</span>
+        </div>
+      </div>
+
+      <!-- 04 Coastal Ecosystem -->
+      <div class="gallery-item">
+        <div class="gallery-photo-wrap">
+          <img class="gallery-item-photo" src="coastal-ecosystem.jpg" alt="Coastal Ecosystem" height="300">
+        </div>
+        <div class="gallery-item-body">
+          <div class="gallery-item-num">04 — ECOSYSTEM</div>
+          <h3 class="gallery-item-title">Coastal Ecosystem</h3>
+          <p class="gallery-item-desc">The coastal ecosystems of the Philippines are vital natural systems that support biodiversity, food supply, and livelihoods. They protect coastal communities while providing resources for fisheries and tourism. However, these ecosystems are fragile and face threats from human activities and climate change.</p>
+          <span class="gallery-item-tags">Mangrove · Seagrass · Intertidal</span>
+        </div>
+      </div>
+
+      <!-- 05 Community Outreach -->
+      <div class="gallery-item">
+        <div class="gallery-photo-wrap">
+          <img class="gallery-item-photo" src="community.jpg" alt="Community Outreach" height="300">
+        </div>
+        <div class="gallery-item-body">
+          <div class="gallery-item-num">05 — OUTREACH</div>
+          <h3 class="gallery-item-title">Community Outreach</h3>
+          <p class="gallery-item-desc">Community outreach in the Philippines plays a vital role in supporting disadvantaged communities and promoting sustainable development. Through health services, education, environmental programs, and disaster relief, different organizations and volunteers work together to address social needs and improve overall community well-being.</p>
+          <span class="gallery-item-tags">Education · Conservation</span>
+        </div>
+      </div>
+
+      <!-- 06 Research Vessel -->
+      <div class="gallery-item">
+        <div class="gallery-photo-wrap">
+          <img class="gallery-item-photo" src="researchvessel.jpg" alt="Research Vessel" height="300">
+        </div>
+        <div class="gallery-item-body">
+          <div class="gallery-item-num">06 — EXPEDITION</div>
+          <h3 class="gallery-item-title">Research Vessel</h3>
+          <p class="gallery-item-desc">Research vessels in the Philippines play a crucial role in exploring and understanding the country's vast marine environment. Operated by government agencies, military units, and universities, these ships provide valuable scientific data that supports fisheries management, environmental protection, and marine research development.</p>
+          <span class="gallery-item-tags">Deep Sea · Acoustic Survey</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+  <div class="container">
+    <p class="section-tag">Collaboration</p>
+    <h2 class="section-title">Get In <em>Touch</em></h2>
+    <div class="section-rule"></div>
+    <div class="contact-grid fade-up">
+      <div class="contact-info">
+        <h3>Let's Connect</h3>
+        <p class="sub">Interested in research collaboration or conservation opportunities?</p>
+        <div class="detail">
+          <div class="detail-icon">✉</div>
+          <div class="detail-text">
+            <span class="detail-label">Email</span>
+            fisheiesmarinescience@gmail.com
+          </div>
+        </div>
+        <div class="detail">
+          <div class="detail-icon">📞</div>
+          <div class="detail-text">
+            <span class="detail-label">Phone</span>
+            +63 (555) 123-4567
+          </div>
+        </div>
+        <div class="detail">
+          <div class="detail-icon">📍</div>
+          <div class="detail-text">
+            <span class="detail-label">Location</span>
+            Philippines, Southeast Asia
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" name="user_name" placeholder="e.g. Juan dela Cruz" required />
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" name="user_email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" name="subject" placeholder="Research collaboration, inquiry…" />
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea name="message" placeholder="Tell me about your project or question…" required></textarea>
+        </div>
+        <button type="submit">Send Message →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">🐚 Fisheries &amp; <span>Marine Science</span></div>
+    <div class="footer-divider"></div>
+    <div class="footer-socials">
+      <a href="#">Twitter / X</a>
+      <a href="#">Google Scholar</a>
+      <a href="#">ResearchGate</a>
+      <a href="#">LinkedIn</a>
+    </div>
+    <p class="footer-copy">&copy; 2026 Fisheries &amp; Marine Science — All rights reserved</p>
+  </div>
+</footer>
+
+<script>
+  emailjs.init("Fe2JpZBahmWcwAfBh");
+  document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    emailjs.sendForm("service_cncg6tc", "template_i224w9j", this)
+      .then(function () {
+        alert("Message sent successfully!");
+        document.getElementById("contactForm").reset();
+      }, function (error) {
+        alert("Failed to send message.");
+        console.log(error);
+      });
+  });
+</script>
+<script src="basejs.js"></script>
+</body>
+</html>
